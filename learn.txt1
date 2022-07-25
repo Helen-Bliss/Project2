@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# A basic summary of my sales repor
+
+echo Here is a summary of the sales data:
+echo Egg 500 juice 405 book 600
+echo You tried!!
+cat /dev/stdin | cut -d' ' -f 2,3 | sort
+
